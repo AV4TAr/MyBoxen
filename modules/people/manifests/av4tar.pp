@@ -1,8 +1,8 @@
 class people::av4tar{
 
-  osx::recovery_message {
-    'If this Mac is found, please email diego@sapriza.net':
-  }
+  #osx::recovery_message {
+  #  'If this Mac is found, please email diego@sapriza.net':
+  #}
 
   include osx::global::enable_keyboard_control_access
   include osx::global::expand_save_dialog
@@ -46,12 +46,12 @@ class people::av4tar{
   include hipchat
   
   include evernote
-  #include adium
-  #include dropbox
+  include adium
+  include dropbox
   #include pgadmin3
-  #include spotify
-  #include caffeine
-  #include tmux
+  include spotify
+  include caffeine
+  include tmux
   #include zsh
   include secondbar
 
