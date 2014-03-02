@@ -42,7 +42,8 @@ class people::av4tar{
   # vagrant::plugin { 'librarian-puppet': }
   vagrant::plugin { ['cachier', 'vagrant-vbox-snapshot', 'vagrant-berkshelf']:}
   include vlc
-  #include wget
+  include wget
+  include hipchat
 
   class { 'intellij':
     edition => 'community',
@@ -77,10 +78,5 @@ class people::av4tar{
     content => '.bundle',
   }
 
-  package { ['boxen/brews/pwgen', 'boxen/brews/w3m', 'boxen/brews/bwm-ng', 'jq', 'unrar']:
-    ensure => present
-  }
-
-  # gem install libxml-ruby -- --with-xml2-lib=/opt/boxen/homebrew/opt/libxml2/lib
 
 }
