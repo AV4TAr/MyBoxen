@@ -48,7 +48,7 @@ class people::av4tar{
   include evernote
   include adium
   include dropbox
-  #include pgadmin3
+  include pgadmin3
   include spotify
   include caffeine
   include tmux
