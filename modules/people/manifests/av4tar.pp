@@ -44,6 +44,16 @@ class people::av4tar{
   include vlc
   include wget
   include hipchat
+  
+  include evernote
+  #include adium
+  #include dropbox
+  #include pgadmin3
+  #include spotify
+  #include caffeine
+  #include tmux
+  #include zsh
+  include secondbar
 
   class { 'intellij':
     edition => 'community',
