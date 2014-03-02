@@ -1,7 +1,7 @@
 class people::av4tar{
 
   osx::recovery_message {
-    'If this Mac is found, please email martin.loy@batanga.com':
+    'If this Mac is found, please email diego@sapriza.net':
   }
 
   include osx::global::enable_keyboard_control_access
@@ -62,8 +62,8 @@ class people::av4tar{
     require => Package['boxen/brews/python']
   }
 
-  git::config::global { 'user.email': value => 'martinloy.uy@gmail.com' }
-  git::config::global { 'user.name': value => 'Martin Loy' }
+  git::config::global { 'user.email': value => 'diego@sapriza.net' }
+  git::config::global { 'user.name': value => 'Diego Sapriza' }
   git::config::global { 'color.ui': value => 'auto' }
 
   # set a global gitignore file
