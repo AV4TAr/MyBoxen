@@ -51,7 +51,6 @@ class people::av4tar{
   include pgadmin3
   include spotify
   include caffeine
-  include tmux
   #include zsh
   include secondbar
 
