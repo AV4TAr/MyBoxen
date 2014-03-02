@@ -83,6 +83,7 @@ github "virtualbox",                      "1.0.1"
 github "vagrant",                         "2.0.7"
 github "vlc",                             "1.0.3"
 github "vim",           "1.0.5"
-#github "wget",                            "1.0.1", :repo => "tombar/puppet-wget"
+github "wget",                            "1.0.1"
+github "hipchat",                 "1.1.0"
 
 github "limechat",              "1.1.0", :repo => "mozilla-boxen/puppet-limechat"
